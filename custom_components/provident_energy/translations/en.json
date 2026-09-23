@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Provident MeterConnex usage portal",
+        "description": "Use your usage portal credentials at provident.meterconnex.com, not your providentbilling.com billing login. For most active customers, the username is the LOC-ID on the bill and the password is the 6-digit Customer Number.",
+        "data": {
+          "username": "Usage portal username (bill LOC-ID)",
+          "password": "Usage portal password (6-digit Customer Number)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "MeterConnex rejected these credentials.",
+      "cannot_connect": "Could not reach or read MeterConnex usage data.",
+      "no_meters": "No meters were found for this usage account.",
+      "no_supported_meters": "No supported electricity, water, heating, or cooling meters were found."
+    },
+    "abort": {
+      "already_configured": "This usage account is already configured."
+    }
+  }
+}
